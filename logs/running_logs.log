@@ -189,3 +189,132 @@ x==========x:]
 [2023-07-26 17:56:30,129:INFO:common:created directory at: artifacts:]
 [2023-07-26 17:56:30,131:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir:]
 [2023-07-26 17:56:30,132:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir:]
+[2023-07-26 19:42:15,471:INFO:common:yaml file: config\config.yaml loaded successfully:]
+[2023-07-26 19:42:15,471:INFO:common:yaml file: params.yaml loaded successfully:]
+[2023-07-26 19:42:15,488:INFO:common:created directory at: artifacts:]
+[2023-07-26 19:42:15,493:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir:]
+[2023-07-26 19:42:15,494:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir:]
+[2023-07-26 19:47:04,959:INFO:common:yaml file: config\config.yaml loaded successfully:]
+[2023-07-26 19:47:04,965:INFO:common:yaml file: params.yaml loaded successfully:]
+[2023-07-26 19:47:04,965:INFO:common:created directory at: artifacts:]
+[2023-07-26 19:47:04,968:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir:]
+[2023-07-26 19:47:04,971:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir:]
+[2023-07-27 09:04:38,154:INFO:common:yaml file: config\config.yaml loaded successfully:]
+[2023-07-27 09:04:38,163:INFO:common:yaml file: params.yaml loaded successfully:]
+[2023-07-27 09:04:38,165:INFO:common:created directory at: artifacts:]
+[2023-07-27 09:04:38,167:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir:]
+[2023-07-27 09:04:38,168:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir:]
+[2023-07-27 09:06:39,626:INFO:common:yaml file: config\config.yaml loaded successfully:]
+[2023-07-27 09:06:39,631:INFO:common:yaml file: params.yaml loaded successfully:]
+[2023-07-27 09:06:39,633:INFO:common:created directory at: artifacts:]
+[2023-07-27 09:06:39,635:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir:]
+[2023-07-27 09:06:39,637:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir:]
+[2023-07-27 09:06:39,639:INFO:common:created directory at: artifacts\training:]
+[2023-07-27 11:01:19,404:INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<:]
+[2023-07-27 11:01:19,413:INFO:common:yaml file: config\config.yaml loaded successfully:]
+[2023-07-27 11:01:19,417:INFO:common:yaml file: params.yaml loaded successfully:]
+[2023-07-27 11:01:19,420:INFO:common:created directory at: artifacts:]
+[2023-07-27 11:01:19,422:INFO:common:created directory at: artifacts/data_ingestion:]
+[2023-07-27 11:02:00,596:INFO:data_ingestion:artifacts/data_ingestion/data.zip download with following info:
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 7E2E:9552:330747:39BBE2:64C20128
+Accept-Ranges: bytes
+Date: Thu, 27 Jul 2023 05:31:22 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10246-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1690435881.989958,VS0,VE1905
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: a94a5c6c5e80ce67da44cfa7aac5d5e241f13c37
+Expires: Thu, 27 Jul 2023 05:36:22 GMT
+Source-Age: 2
+
+:]
+[2023-07-27 11:02:01,000:INFO:main:>>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x:]
+[2023-07-27 11:02:01,000:INFO:main:*******************:]
+[2023-07-27 11:02:01,004:INFO:main:>>>>>> stage Prepare Base Model started <<<<<<:]
+[2023-07-27 11:02:01,008:INFO:common:yaml file: config\config.yaml loaded successfully:]
+[2023-07-27 11:02:01,012:INFO:common:yaml file: params.yaml loaded successfully:]
+[2023-07-27 11:02:01,012:INFO:common:created directory at: artifacts:]
+[2023-07-27 11:02:01,012:INFO:common:created directory at: artifacts/prepare_base_model:]
+[2023-07-27 11:02:01,874:WARNING:saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.:]
+[2023-07-27 11:02:02,311:INFO:main:>>>>>> stage Prepare Base Model completed <<<<<<
+
+x==========x:]
+[2023-07-27 11:02:02,311:INFO:main:*******************:]
+[2023-07-27 11:02:02,311:INFO:main:>>>>>> stage Training started <<<<<<:]
+[2023-07-27 11:02:02,311:ERROR:main:name 'ModelTrainingPipeline' is not defined:]
+Traceback (most recent call last):
+  File "main.py", line 35, in <module>
+    model_trainer = ModelTrainingPipeline()
+NameError: name 'ModelTrainingPipeline' is not defined
+[2023-07-27 11:03:03,643:INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<:]
+[2023-07-27 11:03:03,645:INFO:common:yaml file: config\config.yaml loaded successfully:]
+[2023-07-27 11:03:03,648:INFO:common:yaml file: params.yaml loaded successfully:]
+[2023-07-27 11:03:03,648:INFO:common:created directory at: artifacts:]
+[2023-07-27 11:03:03,648:INFO:common:created directory at: artifacts/data_ingestion:]
+[2023-07-27 11:04:15,592:INFO:data_ingestion:artifacts/data_ingestion/data.zip download with following info:
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 7E2E:9552:330747:39BBE2:64C20128
+Accept-Ranges: bytes
+Date: Thu, 27 Jul 2023 05:33:10 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10246-MAA
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1690435991.551615,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 6ff84f7329949210038fc3c80deff3c4ce06d9ec
+Expires: Thu, 27 Jul 2023 05:38:10 GMT
+Source-Age: 109
+
+:]
+[2023-07-27 11:04:16,230:INFO:main:>>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x:]
+[2023-07-27 11:04:16,231:INFO:main:*******************:]
+[2023-07-27 11:04:16,231:INFO:main:>>>>>> stage Prepare Base Model started <<<<<<:]
+[2023-07-27 11:04:16,240:INFO:common:yaml file: config\config.yaml loaded successfully:]
+[2023-07-27 11:04:16,247:INFO:common:yaml file: params.yaml loaded successfully:]
+[2023-07-27 11:04:16,247:INFO:common:created directory at: artifacts:]
+[2023-07-27 11:04:16,247:INFO:common:created directory at: artifacts/prepare_base_model:]
+[2023-07-27 11:04:17,613:WARNING:saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.:]
+[2023-07-27 11:04:19,014:INFO:main:>>>>>> stage Prepare Base Model completed <<<<<<
+
+x==========x:]
+[2023-07-27 11:04:19,018:INFO:main:*******************:]
+[2023-07-27 11:04:19,018:INFO:main:>>>>>> stage Training started <<<<<<:]
+[2023-07-27 11:04:19,033:INFO:common:yaml file: config\config.yaml loaded successfully:]
+[2023-07-27 11:04:19,042:INFO:common:yaml file: params.yaml loaded successfully:]
+[2023-07-27 11:04:19,042:INFO:common:created directory at: artifacts:]
+[2023-07-27 11:04:19,048:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir:]
+[2023-07-27 11:04:19,048:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir:]
+[2023-07-27 11:04:19,064:INFO:common:created directory at: artifacts\training:]
+[2023-07-27 11:05:10,311:INFO:main:>>>>>> stage Training completed <<<<<<
+
+x==========x:]
