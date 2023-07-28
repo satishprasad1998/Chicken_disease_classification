@@ -150,6 +150,9 @@ docker login chickenapp1.azurecr.io
 docker push chickenapp1.azurecr.io/chicken:latest
 
 
+Running on this website: https://chickenapp2.azurewebsites.net
+
+
 ## Deployment Steps:
 
 1. Build the Docker image of the Source Code
